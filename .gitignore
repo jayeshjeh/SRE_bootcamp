@@ -1,0 +1,47 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python virtual environment
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Flask-related
+instance/
+*.db
+*.sqlite3
+
+# Env files (real secrets)
+.env
+
+# Docker-related
+*.log
+*.pid
+.envrc
+*.tar
+*.gz
+
+# Docker named volumes (just in case)
+postgres_data/
+
+# pytest cache
+.pytest_cache/
+
+# coverage tool
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+
+# Secrets
+secrets.yml
+*.pem
+*.key
